@@ -1,0 +1,34 @@
+@charset "utf-8";body,p{font-family:Arial,Helvetica,sans-serif;font-size:10pt;color:black;line-height:1.5}
+td,th{font-family:Arial,Helvetica,sans-serif;font-size:14pt;color:#333;line-height:1.5}
+body{background-color:#fdfdfd;margin:0;position:relative}ul,li{font-family:Arial,Helvetica,sans-serif;font-size:10pt;color:#333}
+a{color:#ffa142;text-decoration:none}a:hover,a:focus{color:#3397db;text-decoration:none}
+a img{border:none 0 #fff}h1,h2,h3,h4,h5,h6{font-family:Century Gothic;margin:0 0 20px}
+article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+#maincontent{background-color:#f3f3f3;min-height:100%}#footer{background-color:#252831;color:white;font-size:13pt;letter-spacing:1px;padding:25px;text-align:center;text-transform:uppercase;max-width:100%;margin-top:10px}
+nav{width:100%;height:40px;background-color:#252831;text-align:center;padding-top:10px;padding-bottom:10px}
+nav h1{margin:auto}nav h1 a{color:#fff;font-size:25pt;font-weight:200;letter-spacing:4px;text-transform:uppercase}
+nav.breadNav{text-align:left}#breadcrumb{padding:10px 10px 16px;list-style:none;background-color:#eee;font-size:17px;margin:0}
+#breadcrumb li{display:inline;font-size:16pt}#breadcrumb li+li:before{padding:8px;color:black;content:"/\00a0"}
+#breadcrumb li a{color:#0275d8;text-decoration:none}#breadcrumb li a:hover{color:#01447e;text-decoration:underline}
+#map{height:400px;width:100%;background-color:#ccc}.filter-options{width:100%;background-color:#252831;align-items:center}
+.filter-options h2{color:white;font-size:18pt;font-weight:normal;line-height:1;margin:0 10px;padding-top:10px}
+.filter-options select{background-color:white;border:1px solid #fff;font-family:Arial,sans-serif;font-size:16pt;letter-spacing:0;margin:10px 10px;padding:10px 10px}
+#restaurants-list{background-color:#f3f3f3;list-style:outside none none;margin:0;text-align:center;padding-left:0}
+#restaurants-list li{background-color:#fff;font-family:Arial,sans-serif;min-height:380px;border:4px solid #aaa;max-width:100%;margin-bottom:20px}
+#restaurants-list .restaurant-img{background-color:#ccc;display:block;margin:0;max-width:100%;min-height:248px;min-width:100%}
+#restaurants-list li h1{color:navy;font-family:Arial,sans-serif;font-size:14pt;font-weight:bold;letter-spacing:0;line-height:1.3;margin:20px 0 10px;text-transform:uppercase}
+#restaurants-list p{margin:0;font-size:18pt}#restaurants-list li a{background-color:#9e9eff;border-radius:5px;font-weight:bold;border-bottom:3px solid #eee;color:black;display:inline-block;font-size:18pt;margin:15px 0 0;padding:8px 10px 8px;text-align:center;text-decoration:none;text-transform:uppercase}
+.inside header{max-width:100%;z-index:1000}.inside #map-container{background:blue none repeat scroll 0 0;width:100%;height:300px}
+.inside #map{background-color:#ccc;height:100%;width:100%}.inside #footer{max-width:100%}
+#restaurant-name{color:navy;font-family:Arial,sans-serif;font-size:20pt;font-weight:bold;letter-spacing:0;margin:15px 0 15px;text-transform:uppercase;line-height:1.2em;text-align:center}
+#restaurant-img{max-width:100%}#restaurant-address{font-size:16pt;margin:10px 0}#restaurant-cuisine{background-color:#333;color:#ddd;font-size:20pt;font-weight:300;letter-spacing:1px;margin:0 0 10px;padding:2px 0;text-align:center;text-transform:uppercase;max-width:100%}
+#restaurant-container,#reviews-container{border-bottom:1px solid #d9d9d9;border-top:1px solid #fff;max-width:100%}
+#reviews-container{padding:0}#reviews-container h3{color:navy;font-size:18pt;font-weight:bold;letter-spacing:-1px;padding-bottom:1pt;line-height:1.2em;margin:15px 0 15px}
+#reviews-list{margin:0;padding:0}#reviews-list li{background-color:#fff;border:4px solid #aaa;display:block;list-style-type:none;margin:0 0 10px;overflow:hidden;padding:0 2px 2px;position:relative;max-width:100%}
+#reviews-list li p{margin:0 0 10px;font-size:14pt;text-align:justify;padding:2px}
+#restaurant-hours td{color:#666}#reviews-list p:nth-of-type(2){display:inline-block;vertical-align:top;position:absolute;top:0;right:0;color:white;background-color:#252831}
+#reviews-list p:nth-of-type(1){display:inline-block;vertical-align:top;width:100%;background-color:#252831;color:white}
+#reviews-list p:nth-of-type(3){background-color:#004080;color:white;width:30%;text-align:center;margin-right:35%;margin-left:calc(35% - 8px);padding-left:8px}
+ul li p{font-size:18pt}#neighborhoods-select option{font-size:10pt}#cuisines-select option{font-size:10pt}
+.map-toggle{padding-top:10px;padding-right:10px;width:50px;position:fixed;top:0;left:0}
+.map-toggle button{background-color:transparent;background-image:url('/img/map-location.svg');background-repeat:no-repeat;border-color:transparent;cursor:pointer;width:48px;height:60px}
