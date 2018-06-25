@@ -35,7 +35,7 @@ visit localhost 8000
 > **See all the information like timing, reviews, picture etc of a particular restaurant.**
 
 ## How to contribute to the app?
-> **Visit the Repo on Github**
+> **Visit the Repo on Github https://github.com/NischalJakhar/Restaurant_Review_Final**
 
 > **Fork --> Clone/Download to local machine repo**
 
