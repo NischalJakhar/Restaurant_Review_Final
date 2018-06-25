@@ -34,6 +34,13 @@ visit localhost 8000
 
 > **See all the information like timing, reviews, picture etc of a particular restaurant.**
 
+## How to contribute to the app?
+> **Visit the Repo on Github**
+
+> **Fork --> Clone/Download to local machine repo**
+
+> **Start Fixing and sending Pull Requests**
+
 
 # Detailed Information ---- ---- ---- ---- ---- ---- -- - - - - - -- -- -  --  - -- 
 
